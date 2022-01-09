@@ -4,8 +4,8 @@
   --bar-color: #181818;
   --bar-border-color: #282828;
   --bar-size: 90px;
-  --accent-color: #5865F2;
-  --accent-hover: #263AEF;
+  --accent-color: #1db954;
+  --accent-hover: #1ed760;
   --accent-rgb: 29,185,84;
   --accent-text-color: #fff;
   --alt-accent: #5680d4;
@@ -291,13 +291,19 @@ body,
 .scroller-1Bvpku {
   contain: none; }
 
-.tutorialContainer-30WoTp {
+.circleIconButton-hZmpE8 {
+  color: var(--accent-color); }
+  .circleIconButton-hZmpE8.selected-3mFF3I {
+    background-color: var(--accent-color);
+    color: var(--accent-text-color); }
+
+.tutorialContainer-3alCZm {
   position: fixed;
   width: 72px;
   height: var(--bar-size);
   bottom: 0;
   z-index: 2; }
-  .tutorialContainer-30WoTp .listItem-GuPuDH {
+  .tutorialContainer-3alCZm .listItem-2Ig28I {
     height: 48px;
     top: 50%;
     margin: 0;
@@ -353,6 +359,12 @@ body,
     border-bottom: none; }
     .panels-j1Uci_ .container-1giJp5 .actionButtons-14eAc_ .button-38aScr {
       padding: 0; }
+
+/* CHANNELS LIST -> PANELS -> PLAYING GAME */
+.resultWrapper-2g7r2D.resultWrapperSelected-3v78W2 {
+  background-color: var(--menu-hover-color); }
+.resultWrapper-2g7r2D .inviteButton-MGrg8b {
+  width: auto; }
 
 /* CHANNELS LIST -> NOISE SUPPRESSION */
 .noiseCancellationPopout-iRK2A0 {
@@ -434,6 +446,9 @@ body,
  *	MEMBERS LIST
  *
  */
+.container-2wlB3z {
+  background-color: var(--sidebar-color); }
+
 .membersWrap-2h-GB4 {
   position: relative;
   margin-bottom: var(--bar-size); }
@@ -469,6 +484,28 @@ body,
 .botTagRegular-2HEhHi {
   background-color: var(--accent-color);
   color: var(--accent-text-color); }
+
+/* MEMBERS LIST -> CHANNEL BANNER */
+.contentWrapper-3wXY8L {
+  background-color: var(--sidebar-color); }
+  .contentWrapper-3wXY8L .contentWrapperInner-17OxmC {
+    padding: 12px;
+    background-color: var(--card-color);
+    border-radius: var(--card-radius); }
+
+.container-2PDP7D {
+  margin-bottom: var(--bar-size);
+  background-color: var(--sidebar-color); }
+
+.tabs-3L9Rgq,
+.container-1CU5bi {
+  background-color: transparent; }
+
+.tabs-3L9Rgq {
+  border-bottom: none; }
+
+.container-1CU5bi {
+  overflow-y: auto; }
 
 /*
  *
@@ -629,7 +666,7 @@ body,
 .chat-3bRxxu {
   background-color: var(--chat-color); }
   .chat-3bRxxu .messagesWrapper-1sRNjr {
-    margin-bottom: 12px; }
+    margin-bottom: 23px; }
 
 .scroller-2LSbBU {
   margin-bottom: -8px;
@@ -775,9 +812,9 @@ body,
   .form-2fGMdU .channelTextArea-rNsIhG {
     background-color: transparent; }
     .form-2fGMdU .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
-      max-height: 25vh;
+      max-height: 45vh;
       background-color: var(--input-color);
-      border-radius: 10px;
+      border-radius: 22px;
       --scrollbar-thumb: rgba(0,0,0,0.5);
       --scrollbar-thumb-hover: rgba(0,0,0,0.6);
       --scrollbar-thumb-active: rgba(0,0,0,0.7); }
@@ -820,6 +857,27 @@ body,
 .chatCounter-XOMPsh {
   right: 18px;
   font-weight: 500; }
+
+.countdown-1saXFt {
+  color: var(--header-primary); }
+
+/* CHAT AREA -> SPAM FILTER */
+.spamBanner-F4eeXk {
+  margin: -8px 16px 14px;
+  padding: 8px 12px;
+  background-color: var(--input-color);
+  border-radius: 35px;
+  z-index: 2; }
+  .spamBanner-F4eeXk .bannerTextContainer-XQ8tOX {
+    margin: 0 8px 0 0; }
+  .spamBanner-F4eeXk .actionButtons-13eVg9 {
+    margin: 0; }
+  .spamBanner-F4eeXk .bannerHeader-2NFPFF {
+    color: var(--background-secondary-alt); }
+  .spamBanner-F4eeXk .bannerSubtext--fxeI2 {
+    color: var(--background-secondary); }
+  .spamBanner-F4eeXk .colorGrey-2DXtkV {
+    border-color: var(--button-background) !important; }
 
 /* CHAT AREA -> TEXTBOX -> REPLY */
 .attachedBars-tZDmyV {
@@ -2727,10 +2785,10 @@ div[role="radiogroup"] {
  */
 .tooltip-2QfLtc {
   border-radius: var(--popout-radius-small); }
-  .tooltip-2QfLtc.tooltipPrimary-1d1ph4 {
+  .tooltip-2QfLtc.tooltipPrimary-1d1ph4, .tooltip-2QfLtc.tooltipBrand-g03Nz8 {
     background-color: var(--popout-color) !important;
     box-shadow: var(--default-shadow) !important; }
-    .tooltip-2QfLtc.tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
+    .tooltip-2QfLtc.tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK, .tooltip-2QfLtc.tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK {
       border-top-color: var(--popout-color) !important; }
 
 /*
