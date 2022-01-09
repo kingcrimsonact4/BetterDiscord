@@ -775,7 +775,7 @@ body,
   .form-2fGMdU .channelTextArea-rNsIhG {
     background-color: transparent; }
     .form-2fGMdU .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
-      max-height: 45vh;
+      max-height: 25vh;
       background-color: var(--input-color);
       border-radius: 10px;
       --scrollbar-thumb: rgba(0,0,0,0.5);
