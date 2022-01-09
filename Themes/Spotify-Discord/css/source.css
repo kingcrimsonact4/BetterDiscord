@@ -3,7 +3,7 @@
   --title-bar: #212121;
   --bar-color: #181818;
   --bar-border-color: #282828;
-  --bar-size: 90px;
+  --bar-size: 20px;
   --accent-color: #5865F2;
   --accent-hover: #263AEF;
   --accent-rgb: 29,185,84;
@@ -814,7 +814,7 @@ body,
     .form-2fGMdU .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
       max-height: 45vh;
       background-color: var(--input-color);
-      border-radius: 10px;
+      border-radius: 22px;
       --scrollbar-thumb: rgba(0,0,0,0.5);
       --scrollbar-thumb-hover: rgba(0,0,0,0.6);
       --scrollbar-thumb-active: rgba(0,0,0,0.7); }
